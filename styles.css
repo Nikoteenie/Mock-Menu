@@ -1,0 +1,216 @@
+@charset "UTF-8";
+/* CSS Document */
+:root {
+	--dark-blue: #0e2d52;
+	--light-blue: #0D95A5;
+	--orange: #fa6100;
+}
+
+
+body {
+  background-image: url("../offCanvas/main.png");
+  background-position: center bottom;
+  font-family: 'Roboto', sans-serif;
+}
+/*NAVBAR*/
+.navbar {
+  background-color: white !important;
+  padding: 20px;
+}
+.logo {
+  padding-left: 150px;
+}
+.menu-ham {
+  font-size: 1.8rem;
+}
+.hamburger {
+  color: var(--light-blue);
+}
+.menu {
+  color: var(--dark-blue);
+}
+
+.menu-ham:hover .menu{
+  color: var(--light-blue);
+}
+
+.menu-ham:hover .hamburger{
+  color: var(--orange);
+}
+
+.form {
+  border: 1px solid var(--dark-blue);
+}
+.search-button:hover {
+  color: white;
+  background-color: var(--light-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+/*	OFFCANVAS	*/
+
+.offcanvas-body {
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 15px 0 15px 0;
+}
+
+.chevron {
+  font-size: 15px;
+  color: var(--orange);
+}
+
+.offcanvas-header {
+	background-color: var(--dark-blue);
+}
+
+.main-menu-title {
+	font-size: 20px;
+	color:white;
+	transition:  0.2s ease-in;
+}
+
+.main-menu-title:hover {
+	font-size: 21px;
+	
+}
+
+.chevron-back, .back-menu a{
+	font-size: 15px;
+}
+
+.back-menu{
+  color: white;
+text-decoration: none;
+	background-color: var(--dark-color);
+	font-weight: 100;
+	padding-left: 15px;
+	  transition:  0.2s ease-in;
+}
+
+.chevron-back {
+  color: white;
+}
+
+.back-menu:hover {
+ 
+	transform: translateX(-10px);
+}
+
+
+
+.close {
+  color: white;
+  border: none;
+  font-size: 25px;
+	background-color: var(--dark-blue);
+}
+.close:hover {
+  color: var(--orange);
+	  
+}
+
+
+/* LIST */
+
+hr {
+  color: var(--light-blue);
+}
+
+
+.main-category {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.sub-category a{
+  color: var(--light-blue);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.sub-category:hover a {
+  color: var(--dark-blue);
+  font-weight: bolder;
+}
+.sub-category:hover .chevron {
+  color: var(--dark-blue);
+}
+
+.sub-group {
+	font-size: 15px;
+}
+
+.sub-group a{
+color: var(--light-blue);
+text-decoration: none;
+}
+
+.sub-group:hover a {
+  color: var(--dark-blue);
+  font-weight: bolder;
+}
+.sub-group:hover .chevron {
+  color: var(--dark-blue);
+}
+
+
+
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+  .logo {
+    display: none !important;
+  }
+  .sign-in {
+    display: none !important;
+  }
+}
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+  .logo {
+    display: none;
+  }
+  .sign-in {
+    display: none;
+  }
+}
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+  .offcanvas {
+    width: 25% !important;
+  }
+  .logo {
+    display: none;
+  }
+  .sign-in {
+    display: none;
+  }
+}
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
+  .offcanvas {
+    width: 25% !important;
+  }
+}
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (max-width: 1400px) {
+  .offcanvas {
+    width: 100% !important;
+  }
+}
