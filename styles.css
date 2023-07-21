@@ -21,7 +21,7 @@ body {
   padding-left: 150px;
 }
 .menu-ham {
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 .hamburger {
   color: var(--light-blue);
@@ -47,6 +47,29 @@ body {
   border: 1px solid var(--dark-blue);
 }
 
+/*Scroll Strip*/
+div.scrollmenu {
+overflow: auto;
+white-space: nowrap;
+
+}
+
+div.scrollmenu::-webkit-scrollbar {
+display: none;
+}
+
+div.scrollmenu a {
+display: inline-block;
+color: var(--dark-blue);
+text-align: center;
+	padding: 0 6px 0 6px;
+text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+font-weight: bolder;
+}
+
 /*	OFFCANVAS	*/
 
 .offcanvas-body {
@@ -58,7 +81,7 @@ ul {
   padding: 0;
 }
 li {
-  margin: 15px 0 15px 0;
+  margin: 12px 0 12px 0;
 }
 
 .chevron {
@@ -190,6 +213,8 @@ text-decoration: none;
     display: none;
   }
 }
+
+
 /*// Large devices (desktops, 992px and up)*/
 @media (max-width: 992px) {
   .offcanvas {
