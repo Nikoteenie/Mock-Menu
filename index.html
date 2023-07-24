@@ -1,23 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bootstrap demo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700;1,900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/73ffcbdb91.js" crossorigin="anonymous"></script>
-
-<title>Life Extension</title>
-	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-	<link rel="stylesheet" href="../offCanvas/styles.css">
 </head>
-
 <body>
-<div class="row d-lg-none bg-white"> <img class="mobile-logo"  src="mobile-logo.png" alt=""></div>
-
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-around "><img class="logo" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt="">
-  <div class="col-lg-6 col-md-9 my-auto">
-    <div class="form w-100">
+	 <img class="mobile-logo row p-1 bg-white"  src="mobile-logo.png" alt="">
+	<div class="header-container">
+	<div class="row">
+		<div class="col text-center">
+<img class="logo mt-3" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt=""></div>
+  <div class="col-lg-6 col-md-9 mx-auto mt-2">
+    <div class="form w-100 mt-lg-4 mt-sm-0">
       <div class="input-group ">
         <input type="text" class="form-control text-muted rounded-0 p-3" placeholder="search for products and health information or by item #" aria-label="Search" aria-describedby="button-addon2" value="">
         <button class="btn search-button rounded-0 px-3 border border-top-0 border-bottom-0 border-right-0 border-left border-dark" type="button" id="button-addon2" aria-label="Search">
@@ -27,35 +28,45 @@
         </button>
       </div>
     </div>
-    <div class="container pt-3 text-center">
-      <div class="row">
-        <div class="col-2 p-0 text-center">
-          <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span class="menu">Menu</span><i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i></div>
-        </div>
-        <div class="col-9 p-0 pt-1">
-          <div class="scrollmenu"> <a href="https://www.lifeextension.com/wellness">Wellness Blog</a> <a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Needs Quizzes</a> <a href="https://www.lifeextension.com/protocols">Health Protocols</a> 
-			  
-			  <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a>
-			  <a href="https://www.lifeextension.com/quest-com">Contact Us</a> </div>
-        </div>
-		  
-		  
-		  </div>
+	    <div class="row mt-2 text-center">
+    <div class="col-2 text-center">
+      <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <span class="menu">Menu</span><i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i>
       </div>
     </div>
-  
-	<img class="sign-in-mobile d-lg-none pb-5 mb-2" width="70px" src="https://www.lifeextension.com/-/media/lifeextension/seals/ftr-consumerlab-seal-2021.png?rev=951f67be37b94393a5419b3f021e7c14&h=40&w=40&la=en&hash=23FE34486E5F53B6E4EBA950E7099687" alt=""> 
-	
-	<img class="sign-in " src="sign-in.png" width="241" height="105" alt=""/>
-  </nav>
+    <div class="col-9 my-auto">
+      <div class="scrollmenu"> <a href="https://www.lifeextension.com/wellness">Wellness Blog</a> <a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Needs Quizzes</a> <a href="https://www.lifeextension.com/protocols">Health Protocols</a> <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a> <a href="https://www.lifeextension.com/quest-com">Contact Us</a> </div>
+    </div>
+  </div>
+	  </div>
+		<div class="col">
+		<img class="sign-in " src="sign-in.png" width="241" height="105" alt=""/>
 
-<!--Main Menu-->
+		</div>
+		</div> 
+
+<!--
+<div class="col-lg-6 col-md-9 mx-auto mt-2">
+  <div class="row justify-content-between">
+    <div class="col-3">
+      <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+          <span class="menu">Menu</span><i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <div class="col-9 my-auto">
+      <div class="scrollmenu"> <a href="https://www.lifeextension.com/wellness">Wellness Blog</a> <a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Needs Quizzes</a> <a href="https://www.lifeextension.com/protocols">Health Protocols</a> <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a> <a href="https://www.lifeextension.com/quest-com">Contact Us</a> </div>
+    </div>
+  </div>
+-->
+</div>
+	</div>
+</div>
+
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-  <div class="offcanvas-header p-2 p-1 shadow-sm">
+  <div class="offcanvas-header">
     <div class="pb-0 main-menu-title ms-2"> <a style="text-decoration: none;" href="https://www.forensicfilesfiles.com/" target="_blank"><i class="fa-solid fa-circle-user"></i> Hello, Robert Strait</a></div>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
-  <hr class="m-0">
   <div class="offcanvas-body">
     <ul>
       <li class="main-category ps-3">Featured</li>
@@ -142,16 +153,16 @@
         <li class="sub-category ps-3"><a href="">Wellness Specialist</a></li>
         <li class="sub-category ps-3"><a href="https://www.lifeextension.com/about/nutrition-center">Health & Wellness Market</a></li>
       </ul>
-	   <hr>
+      <hr>
       <li class="main-category ps-3">Help & Settings</li>
       <ul>
-        <li class="sub-category ps-3"><a href="">Account Options</a></li>    
-		  <li class="sub-category ps-3"><a href="">View My Cart</a></li>
+        <li class="sub-category ps-3"><a href="">Account Options</a></li>
+        <li class="sub-category ps-3"><a href="">View My Cart</a></li>
         <li class="sub-category ps-3 mb-5"><a href="">Sign Out</a></li>
       </ul>
-     
     </ul>
-    <div> </div>
+    <div> 
+    </div>
   </div>
 </div>
 
@@ -430,6 +441,7 @@
     </ul>
   </div>
 </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
