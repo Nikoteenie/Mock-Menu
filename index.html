@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700;1,900&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/73ffcbdb91.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="styles.css">
+
 <title>Life Extension</title>
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="../offCanvas/styles.css">
 </head>
 
 <body>
 <div class="row d-lg-none bg-white"> <img class="mobile-logo"  src="mobile-logo.png" alt=""></div>
 
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary"><img class="logo" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt="">
+<nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-around "><img class="logo" src="https://www.lifeextension.com/-/media/project/lifeextension/images/logo/le-logo-svg.svg?rev=87127ddb108648aa9bf71c9ed237f8ef&h=75&w=200&la=en&hash=D8E7AC0CF5E35466F65C3FE531322CD8" alt="">
   <div class="col-lg-6 col-md-9 my-auto">
-    <div class="form ms-4 me-4">
+    <div class="form w-100">
       <div class="input-group ">
         <input type="text" class="form-control text-muted rounded-0 p-3" placeholder="search for products and health information or by item #" aria-label="Search" aria-describedby="button-addon2" value="">
         <button class="btn search-button rounded-0 px-3 border border-top-0 border-bottom-0 border-right-0 border-left border-dark" type="button" id="button-addon2" aria-label="Search">
@@ -33,17 +33,26 @@
           <div class="menu-ham" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample"><span class="menu">Menu</span><i class="hamburger ps-1 pb-0 fa-solid fa-bars"></i></div>
         </div>
         <div class="col-9 p-0 pt-1">
-          <div class="scrollmenu"> <a href="https://www.lifeextension.com/wellness">Wellness Blog</a> <a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Needs Quizzes</a> <a href="https://www.lifeextension.com/protocols">Health Protocols</a> <a href="https://www.lifeextension.com/news">Health News</a> <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a> <a href="https://www.lifeextension.com/quest-com">Contact Us</a> </div>
+          <div class="scrollmenu"> <a href="https://www.lifeextension.com/wellness">Wellness Blog</a> <a href="https://www.lifeextension.com/health-basics/supplement-guides">Health Needs Quizzes</a> <a href="https://www.lifeextension.com/protocols">Health Protocols</a> 
+			  
+			  <a href="https://www.lifeextension.com/about/about-life-extension">About Us</a>
+			  <a href="https://www.lifeextension.com/quest-com">Contact Us</a> </div>
         </div>
+		  
+		  
+		  </div>
       </div>
     </div>
-  </div>
-  <img class="sign-in-mobile d-lg-none pb-2" width="55px" src="https://www.lifeextension.com/-/media/lifeextension/seals/ftr-consumerlab-seal-2021.png?rev=951f67be37b94393a5419b3f021e7c14&h=40&w=40&la=en&hash=23FE34486E5F53B6E4EBA950E7099687" alt=""> <img class="sign-in " src="sign-in.png" width="241" height="105" alt=""/></nav>
+  
+	<img class="sign-in-mobile d-lg-none pb-5 mb-2" width="70px" src="https://www.lifeextension.com/-/media/lifeextension/seals/ftr-consumerlab-seal-2021.png?rev=951f67be37b94393a5419b3f021e7c14&h=40&w=40&la=en&hash=23FE34486E5F53B6E4EBA950E7099687" alt=""> 
+	
+	<img class="sign-in " src="sign-in.png" width="241" height="105" alt=""/>
+  </nav>
 
 <!--Main Menu-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
   <div class="offcanvas-header p-2 p-1 shadow-sm">
-    <div class="pb-0 main-menu-title ms-2"> <a style="text-decoration: none; color: white;" href="https://www.forensicfilesfiles.com/" target="_blank"><i class="fa-solid fa-circle-user"></i> Hello, Rob</a></div>
+    <div class="pb-0 main-menu-title ms-2"> <a style="text-decoration: none;" href="https://www.forensicfilesfiles.com/" target="_blank"><i class="fa-solid fa-circle-user"></i> Hello, Robert Strait</a></div>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="m-0">
@@ -136,8 +145,9 @@
 	   <hr>
       <li class="main-category ps-3">Help & Settings</li>
       <ul>
-        <li class="sub-category ps-3"><a href="">Your Account</a></li>
-        <li class="sub-category ps-3 mb-5"><a href="">Sign in</a></li>
+        <li class="sub-category ps-3"><a href="">Account Options</a></li>    
+		  <li class="sub-category ps-3"><a href="">View My Cart</a></li>
+        <li class="sub-category ps-3 mb-5"><a href="">Sign Out</a></li>
       </ul>
      
     </ul>
@@ -147,7 +157,7 @@
 
 <!--Shop by type-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas2" aria-labelledby="offcanvasExample2Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -171,7 +181,7 @@
 
 <!--Shop by health-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas3" aria-labelledby="offcanvasExample3Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -206,7 +216,7 @@
 
 <!--Diet and Lifestyle-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas4" aria-labelledby="offcanvasExample4Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -228,7 +238,7 @@
 
 <!--Skin and Personal-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas5" aria-labelledby="offcanvasExample5Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -250,7 +260,7 @@
 
 <!--Best Selling (Lab Tests)-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas6" aria-labelledby="offcanvasExample6Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -271,7 +281,7 @@
 
 <!--Lab Test Categories-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas7" aria-labelledby="offcanvasExample7Label">
-  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
+  <div class="offcanvas-header p-2"> <a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span> Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -294,7 +304,7 @@
 
 <!--Featured Health Topics-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas8" aria-labelledby="offcanvasExample8Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -313,7 +323,7 @@
 
 <!--AllHealth Topics-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas9" aria-labelledby="offcanvasExample9Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -352,7 +362,7 @@
 
 <!--About Life Extension-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas10" aria-labelledby="offcanvasExample10Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -372,7 +382,7 @@
 
 <!--Life Extension Perks-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas11" aria-labelledby="offcanvasExample11Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -389,8 +399,8 @@
 </div>
 
 <!--Our Formulations-->
-<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas11" aria-labelledby="offcanvasExample12Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas12" aria-labelledby="offcanvasExample12Label">
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -407,7 +417,7 @@
 
 <!--Media Center-->
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas13" aria-labelledby="offcanvasExample13Label">
-  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
+  <div class="offcanvas-header p-2"><a class="back-menu" data-bs-toggle="offcanvas" href="#offcanvasExample"><span class="chevron-back me-1"><i class="fa-solid fa-chevron-left"></i></span>Back</a>
     <button type="button" class="close me-2" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-sharp fa-solid fa-xmark"></i></button>
   </div>
   <hr class="mt-0">
@@ -420,6 +430,6 @@
     </ul>
   </div>
 </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
