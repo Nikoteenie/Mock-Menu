@@ -84,7 +84,7 @@ li {
   font-weight: 600;
 }
 .main-menu-title:hover .fa-circle-user {
-  border: 2px solid var(--orange);
+  border: 3px solid var(--orange);
   border-radius: 100%;
 }
 .chevron-back, .back-menu a {
